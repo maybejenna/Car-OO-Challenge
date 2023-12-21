@@ -13,10 +13,10 @@ class Vehicle {
     this.year = year; 
     }
     honk() {
-        console.log("Beep!")
+        return "Beep!"; 
     }
     toString() {
-        console.log(`The vehicle is a ${this.make} ${this.model} from ${year}."`)
+        return `The vehicle is a ${this.make} ${this.model} from ${year}."`;
     }
 }
 
@@ -43,7 +43,7 @@ class Motorcycle extends Vehicle {
         this.numWheels = 2
     }
     revEngine() {
-        console.log("VROOOM!")
+        return "VROOOM!";
     }
 }
 
